@@ -87,7 +87,7 @@ describe('arraysPractice', function () {
 			expect(divider).toEqual(jasmine.any(Function));
 		})
 		it('should return an array of two arrays', function () {
-			expect(divider([])).toEqual([jasmine.any(Array), jasmine.any(Array)])
+			expect(divider([1,2,3])).toEqual([jasmine.any(Array), jasmine.any(Array)])
 		})
 		it('should have even numbers in the first array and odd numbers in the second array', function () {
 			var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
